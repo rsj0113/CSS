@@ -1,2 +1,21 @@
 # CSS
 CSS (Credit Scoring System)
+
+
+1. EDA
+
+1.1. Kaggle 데이터 가져오기
+(application_test.csv.zip	    installments_payments.csv.zip
+application_train.csv.zip	    bureau_balance.csv.zip		    POS_CASH_balance.csv.zip
+bureau.csv.zip			    previous_application.csv.zip    credit_card_balance.csv.zip)
+
+1.2. Pandas 데이터프레임 생성 및 데이터 구조 파악
+(train, test, bureau, bureau_balance)
+
+1.3. Feature Engineering
+train : key (SK_ID_CURR distinct)
+test : key (SK_ID_CURR distinct)
+bureau : key (SK_ID_BUREAU distinct), SK_ID_CURR 중복
+bureau_balance : SK_ID_BUREAU 중복
+> Merge 하기 위해서 SK_ID_CURR 기준으로 요약정보 생성하기
+
