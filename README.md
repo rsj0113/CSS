@@ -80,6 +80,41 @@ Merge 하기 위해서 SK_ID_CURR 기준으로 요약정보 생성하기
 2.2.2. 결측치 처리 ( median 으로 대체 )
 
 
+2.3. 데이터 Split (개발용 & 검증용)
+
+2.4. 모형 학습
+
+2.4.1. 모형학습1 (결측 0으로 대체)
+
+2.4.2. 모형학습2 ( median 으로 대체 )
+
+2.4.3. 모형학습3 ( SMOTE 를 이용한 Oversampling )
+
+
+> **3. 모형 검증 및 평가**
+
+3.1. K-Fold Cross Validation
+
+3.2. 정오분류표(Confusion Matrix) 통한 검증
+
+3.3. ROC Curve 산출
+
+3.4. 스코어 산출 및 등급화
+
+
+> (번외) Logistic Regression 을 이용한 Scorecard 산출
+
+1. 데이터 가져오기
+
+2. Binning 
+
+3. Linear 파라미터 설정
+
+4. 스코어카드 생성
+
+5. 스코어카드 반출
+
+
 
 
 
