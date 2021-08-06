@@ -2,7 +2,7 @@
 CSS (Credit Scoring System)
 
 
-> **1. EDA**
+> **1. EDA (1_Home_Credit_Default_Risk_EDA.ipynb)**
 
 1.1. Kaggle 데이터 가져오기
 
